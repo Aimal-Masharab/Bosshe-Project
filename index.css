@@ -1,0 +1,408 @@
+@font-face {
+  font-family: swiss;
+  src: url("./font/Swiss\ 721\ BT.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: swiss;
+}
+body {
+  background-color: black;
+}
+.header1 {
+  display: flex;
+  position: absolute;
+  top: 35px;
+  justify-content: space-around;
+  width: 100%;
+}
+.header1 > * {
+  background-color: transparent;
+}
+.logotext {
+  font-size: 35px;
+  margin-left: -80px;
+}
+.headerbtns > * {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fffeff;
+  margin-left: 45px;
+}
+.topp {
+  color: #fffeff;
+  position: relative;
+}
+.top {
+  display: flex;
+  height: 650px;
+}
+.topleft {
+  width: 35%;
+  background-color: #161a1b;
+  font-size: 18px;
+  align-content: end;
+  padding-bottom: 40px;
+}
+.leftcontent {
+  margin-left: 10px;
+  color: #838788;
+}
+.topright {
+  width: 65%;
+}
+.mercedpic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tagline {
+  font-size: 50px;
+  width: 40%;
+  word-spacing: 8px;
+  font-weight: 700;
+  line-height: 1.8;
+  position: absolute;
+  top: 30%;
+  left: 13%;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.hondalogo {
+  width: 10%;
+  opacity: 0.5;
+  filter: grayscale(1);
+}
+.logo2 {
+  width: 100%;
+  height: 50%;
+}
+.secondflex {
+  margin-top: 50px;
+  color: #838788;
+}
+.flexparent {
+  display: flex;
+  justify-content: space-around;
+}
+.flexparent > * {
+  width: 35%;
+}
+.leadersheading {
+  font-size: 35px;
+  color: #fffeff;
+  line-height: 1.8;
+  word-spacing: 10px;
+}
+.atprojectcontent {
+  font-size: 18px;
+  line-height: 1.8;
+}
+.learnmore {
+  color: #fffeff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 25px;
+}
+.polestarimg {
+  padding-top: 70px;
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+}
+.polestarpic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bestfeatures {
+  margin-top: 100px;
+  color: #838788;
+}
+.bestheading {
+  font-size: 35px;
+  color: #fffeff;
+  line-height: 1.8;
+  text-align: center;
+  word-spacing: 10px;
+}
+.bestcontent {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: center;
+}
+.flexparent2 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+.qualitychoice {
+  width: 31%;
+  margin-top: 70px;
+}
+.num {
+  font-size: 35px;
+  font-weight: 700;
+}
+.qualityheading {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #fffeff;
+}
+.qualitycontent {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.learnmorelink {
+  text-decoration: none;
+  color: #fffeff;
+  display: block;
+  margin-top: 20px;
+}
+.collectioncar {
+  color: #838788;
+  margin-top: 150px;
+}
+.collectionheading {
+  font-size: 35px;
+  color: #fffeff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.collectioncontent {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+}
+.list {
+  margin-top: 60px;
+  color: #fffeff;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+.flexparent3 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flexparent4 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.card {
+  color: #fffeff;
+  width: 27%;
+  background-color: #161b1c;
+}
+.carpics {
+  width: 100%;
+  height: 100%;
+  background-color: darkgrey;
+}
+.carimgs {
+  width: 100%;
+  height: 50%;
+}
+.price {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pricedollar {
+  font-size: 30px;
+  font-weight: 700;
+  display: inline;
+}
+.dollar {
+  color: orange;
+  font-size: 30px;
+}
+.model {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.buynow {
+  display: block;
+  background-color: #fffeff;
+  padding: 20px 60px;
+  width: 100%;
+  margin-top: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+}
+.location {
+  color: #838788;
+  font-size: 20px;
+  margin-left: 10%;
+}
+.seecars {
+  background-color: #fffeff;
+  color: black;
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  font-weight: 700;
+}
+.seecarslink {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.arrow {
+  padding-top: 3px;
+}
+.question {
+  line-height: 1.8;
+  margin-top: 150px;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+}
+.question > * {
+  width: 43%;
+}
+.answerheading {
+  font-size: 27px;
+  font-weight: 500;
+}
+.polestarinpic {
+  width: 100%;
+}
+.quality1,
+.quality2,
+.quality3 {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.plus {
+  position: absolute;
+  right: 30px;
+}
+.quality2 {
+  border-top: 1px solid #838788;
+  border-bottom: 1px solid #838788;
+}
+footer {
+  background-color: #161b1c;
+  margin-top: 70px;
+  font-size: 18px;
+}
+.firstpart {
+  padding-top: 100px;
+}
+.flex5 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.navigation {
+  width: 20%;
+  padding-left: 50px;
+}
+.supportus {
+  width: 20%;
+}
+.partner {
+  width: 20%;
+}
+.email {
+  display: flex;
+  margin-top: 15px;
+}
+.bosshelogo {
+  font-size: 30px;
+  color: white;
+  margin-left: 80px;
+}
+input {
+  width: 70%;
+  background-color: #838788;
+  color: #fffeff;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px;
+}
+button {
+  width: 30%;
+  background-color: transparent;
+  padding: 10px;
+  font-weight: 700;
+  color: #838788;
+}
+.home1,
+.ourpartner,
+.contactus {
+  color: #919596;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+}
+.navigationheading {
+  color: #b7bbbc;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.supportusheading {
+  color: #b7bbbc;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.partnerheading {
+  color: #b7bbbc;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.subscribe {
+  color: #919596;
+  line-height: 1.8;
+  width: 35%;
+}
+.lastpart {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerlinks {
+  text-decoration: none;
+  font-size: 17px;
+
+  line-height: 1.8;
+  color: #838788;
+}
+.footerlink {
+  margin-left: 70px;
+}
+.copyrightline {
+  margin-left: 70px;
+  font-size: 17px;
+  color: #838788;
+  padding-bottom: 30px;
+}
+.icons {
+  font-size: 35px;
+  color: #838788;
+}
+.icon {
+  margin-right: 100px;
+}
